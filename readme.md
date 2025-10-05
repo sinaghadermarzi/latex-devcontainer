@@ -29,6 +29,10 @@ Step by Step:
     <img src="./misc/latex_command_menu.png" height="250"/>
 </p>
 
+## Troubleshooting
+
+- When using [Rancher Desktop](https://rancherdesktop.io/) on Windows, you might need to disable mounting the Wayland Socket (see [this](https://github.com/rancher-sandbox/rancher-desktop/issues/4436#issuecomment-1712518033))
+
 ## Credits
 
 - Uses the [danteev/texlive](https://github.com/dante-ev/docker-texlive) Docker image as base: [MIT License](https://github.com/dante-ev/docker-texlive/blob/main/LICENSE)
