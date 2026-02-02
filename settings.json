@@ -1,4 +1,5 @@
 {
+    "ltex.java.path": "/usr/lib/jvm/default-java",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,

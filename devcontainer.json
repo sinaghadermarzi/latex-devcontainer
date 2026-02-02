@@ -10,9 +10,18 @@
                 "mathematic.vscode-latex",
                 "ms-azuretools.vscode-docker",
                 "meezilla.json",
-                "valentjn.vscode-ltex"
-            ]
+                "valentjn.vscode-ltex",
+                "github.copilot",
+                "github.copilot-chat"
+            ],
+            "settings": {
+                "http.proxyStrictSSL": false
+            }
         }
+    },
+    "remoteEnv": {
+        "NODE_EXTRA_CA_CERTS": "/etc/ssl/certs/ca-certificates.crt",
+        "NODE_TLS_REJECT_UNAUTHORIZED": "0"
     },
     "mounts": [
         // "source=${env:USERPROFILE}/.gitconfig,target=/root/.gitconfig,type=bind,consistency=cached" // Windows only to use Git credentials
